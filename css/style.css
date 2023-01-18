@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: 'Manrope';
+        font-weight: 200;
+        src: url('../public/fonts/Manrope-ExtraLight.woff2');
+    }
+    @font-face {
+        font-family: 'Manrope';
+        font-weight: 300;
+        src: url('../public/fonts/Manrope-Light.woff2');
+    }
+    @font-face {
+        font-family: 'Manrope';
+        font-weight: 400;
+        src: url('../public/fonts/Manrope-Regular.woff2');
+    }
+    @font-face {
+        font-family: 'Manrope';
+        font-weight: 500;
+        src: url('../public/fonts/Manrope-Medium.woff2');
+    }
+    @font-face {
+        font-family: 'Manrope';
+        font-weight: 600;
+        src: url('../public/fonts/Manrope-SemiBold.woff2');
+    }
+    @font-face {
+        font-family: 'Manrope';
+        font-weight: 700;
+        src: url('../public/fonts/Manrope-Bold.woff2');
+    }
+    @font-face {
+        font-family: 'Manrope';
+        font-weight: 800;
+        src: url('../public/fonts/Manrope-ExtraBold.woff2');
+    }
+}
